@@ -10,7 +10,7 @@ This project demonstrates a comprehensive, end-to-end data warehousing and analy
 
 The project follows **Medallion Architecture**, organizing data across three progressive layers that take raw source data and refine it into analysis-ready business intelligence.
 
-![Data Architecture](docs/data_architecture.drawio)
+![Data Architecture]
 
 - **Bronze Layer** — Raw data ingested as-is from source CSV files directly into a SQL Server database. No transformations are applied at this stage; the data is preserved exactly as received from source systems.
 - **Silver Layer** — Data cleansing, standardization, and normalization are applied here. This layer resolves quality issues, removes duplicates, standardizes formats, and prepares data for reliable downstream use.
